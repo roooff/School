@@ -1,0 +1,26 @@
+.Header
+ {
+  background-color: #DAF9A6;
+  width: 800px;
+  height: 100px;
+ align-self: center;
+ }
+ .Text
+ {
+    color: #88A652;
+    size: 35px;
+    text-align: center;
+ }
+ .Content
+ {
+    background-color: #88A652;
+    width: 800px;
+    height: auto;
+    text-align: center;
+ }
+ .Съдържание
+ {
+    color:#DAF9A6;
+    size: 35px;
+    text-align: center;
+ }
