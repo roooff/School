@@ -1,2 +1,2 @@
 # School
-All projects, solutions and problems from school
+All projects, solutions and problems from school and my solutions
