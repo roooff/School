@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Name Greeting", "Name Greet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{FA48585A-DA56-420D-B999-23C0ED4C49BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square", "Square\Square.csproj", "{7D123097-14FA-4CBD-81AD-1F91679108FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muldig1", "Muldig1\Muldig1.csproj", "{878B47CA-2BC8-43A4-BA09-F161682E45A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchng", "Exchng\Exchng.csproj", "{EFA216E6-9342-406B-9FE0-822FDC2EFEAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{FA48585A-DA56-420D-B999-23C0ED4C49BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA48585A-DA56-420D-B999-23C0ED4C49BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA48585A-DA56-420D-B999-23C0ED4C49BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D123097-14FA-4CBD-81AD-1F91679108FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D123097-14FA-4CBD-81AD-1F91679108FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D123097-14FA-4CBD-81AD-1F91679108FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D123097-14FA-4CBD-81AD-1F91679108FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878B47CA-2BC8-43A4-BA09-F161682E45A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878B47CA-2BC8-43A4-BA09-F161682E45A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878B47CA-2BC8-43A4-BA09-F161682E45A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878B47CA-2BC8-43A4-BA09-F161682E45A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA216E6-9342-406B-9FE0-822FDC2EFEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA216E6-9342-406B-9FE0-822FDC2EFEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA216E6-9342-406B-9FE0-822FDC2EFEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA216E6-9342-406B-9FE0-822FDC2EFEAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
