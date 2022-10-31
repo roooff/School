@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterBookList", "BetterBoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transfering from one to another form and out", "Transfering from one to another form and out\Transfering from one to another form and out.csproj", "{E334D4C4-1DB6-4E05-8307-F55D470F9852}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currency Convertor", "Currency Convertor\Currency Convertor.csproj", "{E61C5918-B270-4825-A93B-50261F4E5C93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E334D4C4-1DB6-4E05-8307-F55D470F9852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E334D4C4-1DB6-4E05-8307-F55D470F9852}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E334D4C4-1DB6-4E05-8307-F55D470F9852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61C5918-B270-4825-A93B-50261F4E5C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61C5918-B270-4825-A93B-50261F4E5C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61C5918-B270-4825-A93B-50261F4E5C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61C5918-B270-4825-A93B-50261F4E5C93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

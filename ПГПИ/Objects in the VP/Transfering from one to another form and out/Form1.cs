@@ -14,6 +14,9 @@ namespace Transfering_from_one_to_another_form_and_out
     {
         public Form1()
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
             InitializeComponent();
         }
 
