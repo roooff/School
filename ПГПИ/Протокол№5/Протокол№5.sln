@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hellow World", "Hellow World\Hellow World.csproj", "{F05B5264-E524-46D9-9D13-706168F245A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{7F8FE05E-C333-4620-A5EE-78FDA6F0492D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F05B5264-E524-46D9-9D13-706168F245A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F05B5264-E524-46D9-9D13-706168F245A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F05B5264-E524-46D9-9D13-706168F245A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8FE05E-C333-4620-A5EE-78FDA6F0492D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8FE05E-C333-4620-A5EE-78FDA6F0492D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8FE05E-C333-4620-A5EE-78FDA6F0492D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8FE05E-C333-4620-A5EE-78FDA6F0492D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
