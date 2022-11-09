@@ -1,0 +1,33 @@
+*{
+background-color: #b8d1d6;
+height: auto;
+
+}
+.header{
+    text-align: center;
+    text-shadow: black;
+}
+.picture
+{
+    margin-top: 0;
+    border: 5px solid #4d3dc4 ;
+    float: left;
+    margin: 15px;
+    margin-right: 5px;
+    
+}
+.text
+{
+margin-bottom: 15px;
+  
+}
+.table-section
+{
+    border-collapse: collapse;
+    border: 5px solid #4d3dc4;
+    
+}
+
+
+
+
