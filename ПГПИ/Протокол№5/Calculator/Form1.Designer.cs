@@ -30,8 +30,8 @@ namespace Calculator
         private void InitializeComponent()
         {
             this.name = new System.Windows.Forms.Label();
-            this.y = new System.Windows.Forms.TextBox();
-            this.x = new System.Windows.Forms.TextBox();
+            this.SecnuM = new System.Windows.Forms.TextBox();
+            this.FirstNum = new System.Windows.Forms.TextBox();
             this.CalcSum = new System.Windows.Forms.Button();
             this.Input = new System.Windows.Forms.Label();
             this.plus = new System.Windows.Forms.Label();
@@ -40,7 +40,7 @@ namespace Calculator
             this.divide = new System.Windows.Forms.Label();
             this.Enterx = new System.Windows.Forms.Label();
             this.Entery = new System.Windows.Forms.Label();
-            this.plusplus = new System.Windows.Forms.Label();
+            this.character = new System.Windows.Forms.Label();
             this.ResultTxt = new System.Windows.Forms.Label();
             this.resultresult = new System.Windows.Forms.Label();
             this.Result = new System.Windows.Forms.TextBox();
@@ -58,28 +58,28 @@ namespace Calculator
             this.name.Location = new System.Drawing.Point(359, 9);
             this.name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(122, 24);
+            this.name.Size = new System.Drawing.Size(158, 29);
             this.name.TabIndex = 0;
             this.name.Text = "Калкулатор";
             // 
-            // y
+            // SecnuM
             // 
-            this.y.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.y.Location = new System.Drawing.Point(236, 316);
-            this.y.Margin = new System.Windows.Forms.Padding(4);
-            this.y.Name = "y";
-            this.y.Size = new System.Drawing.Size(109, 23);
-            this.y.TabIndex = 1;
-            this.y.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.SecnuM.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.SecnuM.Location = new System.Drawing.Point(236, 316);
+            this.SecnuM.Margin = new System.Windows.Forms.Padding(4);
+            this.SecnuM.Name = "SecnuM";
+            this.SecnuM.Size = new System.Drawing.Size(109, 26);
+            this.SecnuM.TabIndex = 1;
+            this.SecnuM.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // x
+            // FirstNum
             // 
-            this.x.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.x.Location = new System.Drawing.Point(13, 313);
-            this.x.Margin = new System.Windows.Forms.Padding(4);
-            this.x.Name = "x";
-            this.x.Size = new System.Drawing.Size(86, 23);
-            this.x.TabIndex = 2;
+            this.FirstNum.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.FirstNum.Location = new System.Drawing.Point(13, 313);
+            this.FirstNum.Margin = new System.Windows.Forms.Padding(4);
+            this.FirstNum.Name = "FirstNum";
+            this.FirstNum.Size = new System.Drawing.Size(86, 26);
+            this.FirstNum.TabIndex = 2;
             // 
             // CalcSum
             // 
@@ -99,7 +99,7 @@ namespace Calculator
             this.Input.Location = new System.Drawing.Point(16, 97);
             this.Input.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Input.Name = "Input";
-            this.Input.Size = new System.Drawing.Size(182, 17);
+            this.Input.Size = new System.Drawing.Size(231, 20);
             this.Input.TabIndex = 4;
             this.Input.Text = "Въведи знак за операция:";
             // 
@@ -109,7 +109,7 @@ namespace Calculator
             this.plus.Location = new System.Drawing.Point(16, 125);
             this.plus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.plus.Name = "plus";
-            this.plus.Size = new System.Drawing.Size(190, 17);
+            this.plus.Size = new System.Drawing.Size(237, 20);
             this.plus.TabIndex = 5;
             this.plus.Text = "Събиране                           +\r\n";
             // 
@@ -119,7 +119,7 @@ namespace Calculator
             this.minus.Location = new System.Drawing.Point(16, 160);
             this.minus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minus.Name = "minus";
-            this.minus.Size = new System.Drawing.Size(190, 17);
+            this.minus.Size = new System.Drawing.Size(239, 20);
             this.minus.TabIndex = 6;
             this.minus.Text = "Изваждане                          -";
             // 
@@ -129,7 +129,7 @@ namespace Calculator
             this.multiply.Location = new System.Drawing.Point(16, 191);
             this.multiply.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.multiply.Name = "multiply";
-            this.multiply.Size = new System.Drawing.Size(192, 17);
+            this.multiply.Size = new System.Drawing.Size(240, 20);
             this.multiply.TabIndex = 7;
             this.multiply.Text = "Умножение                          *";
             // 
@@ -139,7 +139,7 @@ namespace Calculator
             this.divide.Location = new System.Drawing.Point(16, 228);
             this.divide.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.divide.Name = "divide";
-            this.divide.Size = new System.Drawing.Size(175, 17);
+            this.divide.Size = new System.Drawing.Size(217, 20);
             this.divide.TabIndex = 8;
             this.divide.Text = "Деление                          /";
             // 
@@ -149,7 +149,7 @@ namespace Calculator
             this.Enterx.Location = new System.Drawing.Point(16, 282);
             this.Enterx.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Enterx.Name = "Enterx";
-            this.Enterx.Size = new System.Drawing.Size(75, 17);
+            this.Enterx.Size = new System.Drawing.Size(97, 20);
             this.Enterx.TabIndex = 9;
             this.Enterx.Text = "Въведи  х:";
             // 
@@ -159,25 +159,24 @@ namespace Calculator
             this.Entery.Location = new System.Drawing.Point(254, 282);
             this.Entery.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Entery.Name = "Entery";
-            this.Entery.Size = new System.Drawing.Size(76, 17);
+            this.Entery.Size = new System.Drawing.Size(97, 20);
             this.Entery.TabIndex = 10;
             this.Entery.Text = "Въведи  y:";
             // 
-            // plusplus
+            // character
             // 
-            this.plusplus.AutoSize = true;
-            this.plusplus.Location = new System.Drawing.Point(152, 319);
-            this.plusplus.Name = "plusplus";
-            this.plusplus.Size = new System.Drawing.Size(16, 17);
-            this.plusplus.TabIndex = 11;
-            this.plusplus.Text = "+";
+            this.character.AutoSize = true;
+            this.character.Location = new System.Drawing.Point(152, 319);
+            this.character.Name = "character";
+            this.character.Size = new System.Drawing.Size(0, 20);
+            this.character.TabIndex = 11;
             // 
             // ResultTxt
             // 
             this.ResultTxt.AutoSize = true;
             this.ResultTxt.Location = new System.Drawing.Point(541, 282);
             this.ResultTxt.Name = "ResultTxt";
-            this.ResultTxt.Size = new System.Drawing.Size(69, 17);
+            this.ResultTxt.Size = new System.Drawing.Size(87, 20);
             this.ResultTxt.TabIndex = 12;
             this.ResultTxt.Text = "Резултат";
             // 
@@ -186,7 +185,7 @@ namespace Calculator
             this.resultresult.AutoSize = true;
             this.resultresult.Location = new System.Drawing.Point(435, 319);
             this.resultresult.Name = "resultresult";
-            this.resultresult.Size = new System.Drawing.Size(16, 17);
+            this.resultresult.Size = new System.Drawing.Size(19, 20);
             this.resultresult.TabIndex = 13;
             this.resultresult.Text = "=";
             this.resultresult.Click += new System.EventHandler(this.label11_Click);
@@ -197,7 +196,7 @@ namespace Calculator
             this.Result.Location = new System.Drawing.Point(522, 316);
             this.Result.Margin = new System.Windows.Forms.Padding(4);
             this.Result.Name = "Result";
-            this.Result.Size = new System.Drawing.Size(109, 23);
+            this.Result.Size = new System.Drawing.Size(109, 26);
             this.Result.TabIndex = 14;
             // 
             // Clear
@@ -228,12 +227,13 @@ namespace Calculator
             this.Char.Location = new System.Drawing.Point(438, 97);
             this.Char.Margin = new System.Windows.Forms.Padding(4);
             this.Char.Name = "Char";
-            this.Char.Size = new System.Drawing.Size(109, 23);
+            this.Char.Size = new System.Drawing.Size(109, 26);
             this.Char.TabIndex = 17;
+            this.Char.TextChanged += new System.EventHandler(this.Char_TextChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(901, 508);
             this.Controls.Add(this.Char);
@@ -242,7 +242,7 @@ namespace Calculator
             this.Controls.Add(this.Result);
             this.Controls.Add(this.resultresult);
             this.Controls.Add(this.ResultTxt);
-            this.Controls.Add(this.plusplus);
+            this.Controls.Add(this.character);
             this.Controls.Add(this.Entery);
             this.Controls.Add(this.Enterx);
             this.Controls.Add(this.divide);
@@ -251,8 +251,8 @@ namespace Calculator
             this.Controls.Add(this.plus);
             this.Controls.Add(this.Input);
             this.Controls.Add(this.CalcSum);
-            this.Controls.Add(this.x);
-            this.Controls.Add(this.y);
+            this.Controls.Add(this.FirstNum);
+            this.Controls.Add(this.SecnuM);
             this.Controls.Add(this.name);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -266,8 +266,8 @@ namespace Calculator
         #endregion
 
         private System.Windows.Forms.Label name;
-        private System.Windows.Forms.TextBox y;
-        private System.Windows.Forms.TextBox x;
+        private System.Windows.Forms.TextBox SecnuM;
+        private System.Windows.Forms.TextBox FirstNum;
         private System.Windows.Forms.Button CalcSum;
         private System.Windows.Forms.Label Input;
         private System.Windows.Forms.Label plus;
@@ -276,7 +276,7 @@ namespace Calculator
         private System.Windows.Forms.Label divide;
         private System.Windows.Forms.Label Enterx;
         private System.Windows.Forms.Label Entery;
-        private System.Windows.Forms.Label plusplus;
+        private System.Windows.Forms.Label character;
         private System.Windows.Forms.Label ResultTxt;
         private System.Windows.Forms.Label resultresult;
         private System.Windows.Forms.TextBox Result;

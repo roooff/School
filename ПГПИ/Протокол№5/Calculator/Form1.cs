@@ -29,26 +29,31 @@ namespace Calculator
 
         private void button2_Click(object sender, EventArgs e)
         {
-            x.Text = "";
-            y.Text = "";
-            Result.Text = "";
+           
            
         }
 
         private void CalcSum_Click(object sender, EventArgs e)
         {
-            int rezultat = 0, x, y;
-            x = int.Parse(this.x.Text);
-            y = int.Parse(this.y.Text); 
-            switch (Char.Text)
+            int result = 0, x, y;
+            x = int.Parse(FirstNum.Text);
+            y = int.Parse(SecnuM.Text);
+            switch (label1Sight.Text)
             {
-                case "+": rezultat = x + y; break;
-                case "-": rezultat = x - y; break;
-                case "*": rezultat = x * y; break;
-                case "/": rezultat = x / y; break;
-               
+                case "+": result = x + y; break;
+                case "-": result = x - y; break;
+                case "*": result = x * y; break;
+                case "/": result = x / y; break;
+                default:
+                    { labelBug.Font = new Font(labelBug.Font, FontStyle.Bold); MessageBox.Show(labelBug.Text); break; }
             }
-            CalcSum.Text = rezultat.ToString();
+            textBox3Sum.Text = rezultat.ToString();
+
+        }
+
+        private void Char_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
