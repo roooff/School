@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>working-with-objects-3</title>
+</head>
+<body>
+<p id="demo"></p>
+
+<script>
+function student() {
+this.name = "Robert";
+}
+student.prototype.display = function() {
+console.log("My name is  " + this.name);
+};
+var stu1 = new student();
+stu1.display();
+document.getElementById("demo").innerHTML="My name is  " + stu1.name;
+</script>
+
+</body>
+</html>
