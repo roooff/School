@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\Протокол№7\Figures\bin\Debug\Figures.exe.config
+C:\Users\Admin\Desktop\Протокол№7\Figures\bin\Debug\Figures.exe
+C:\Users\Admin\Desktop\Протокол№7\Figures\bin\Debug\Figures.pdb
+C:\Users\Admin\Desktop\Протокол№7\Figures\obj\Debug\Figures.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Протокол№7\Figures\obj\Debug\Figures.Figures.resources
+C:\Users\Admin\Desktop\Протокол№7\Figures\obj\Debug\Figures.Properties.Resources.resources
+C:\Users\Admin\Desktop\Протокол№7\Figures\obj\Debug\Figures.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Протокол№7\Figures\obj\Debug\Figures.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Протокол№7\Figures\obj\Debug\Figures.exe
+C:\Users\Admin\Desktop\Протокол№7\Figures\obj\Debug\Figures.pdb
