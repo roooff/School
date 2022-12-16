@@ -1,6 +1,6 @@
 int a = 13; 
-int potention = 8;
-byte lastPonState;
+int temp = 8;
+byte lastTempState;
 
 void setup () 
 {
@@ -9,17 +9,17 @@ pinMode(a, OUTPUT);
 pinMode(A0,   INPUT);
 Serial.begin(9600);
 
-byte lastPonState= digitalRead(potention);
+byte lastTempState= digitalRead(temp);
 }
 
 
 void loop() 
 {
 Serial.println(A0);
-int potValue=analogRead(A0);
+int tempValue=analogRead(A0);
 digitalWrite(a, HIGH);
-delay(potValue);
+delay(tempValue);
 digitalWrite(a, LOW);
-delay(potValue);
+delay(tempValue);
 
 }
